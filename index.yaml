@@ -1,0 +1,43 @@
+apiVersion: v1
+entries:
+  turing:
+  - apiVersion: v1
+    appVersion: v1.0.0
+    created: "2022-11-01T06:41:08.963603469Z"
+    dependencies:
+    - name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - db
+      version: 10.16.2
+    - name: mlp
+      repository: file://subcharts/mlp
+      tags:
+      - mlp
+      version: 1.0.1
+    - name: merlin
+      repository: file://subcharts/merlin
+      tags:
+      - mlp
+      version: 0.7.1
+    description: 'Turing: ML Experimentation System'
+    digest: 8194cf70d553c26aa8db9033927a53337855e8ea01911dd3d5e4e186788c0452
+    name: turing
+    urls:
+    - https://deadlycoconuts.github.io/turing-charts/turing-0.2.13.tgz
+    version: 0.2.13
+  turing-init:
+  - apiVersion: v2
+    created: "2022-11-01T06:41:08.966451513Z"
+    dependencies:
+    - name: spark-operator
+      repository: https://googlecloudplatform.github.io/spark-on-k8s-operator
+      version: 1.1.7
+    description: A Helm chart for Kubernetes
+    digest: 252b4c2ce8b81f72eda737ea95dfec6fa3f716021da55e2bad0c3c217a6c23d8
+    name: turing-init
+    type: application
+    urls:
+    - https://deadlycoconuts.github.io/turing-charts/turing-init-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-11-01T06:41:08.940971618Z"
