@@ -3,7 +3,7 @@ entries:
   turing:
   - apiVersion: v1
     appVersion: v1.0.0
-    created: "2022-11-02T02:35:26.57545227Z"
+    created: "2022-11-02T05:57:16.14429035Z"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -21,23 +21,23 @@ entries:
       - mlp
       version: 0.7.1
     description: 'Turing: ML Experimentation System'
-    digest: 0f63fdbe48389b812bbc32e38a034478e084cf4cb62ad0f12e7bb52d1f1cab78
+    digest: 0996f19538f98eacb70213c0eed658d23aef13fc68e590b0e53f250607da68d0
     name: turing
     urls:
     - https://deadlycoconuts.github.io/turing-charts/turing-0.2.13.tgz
     version: 0.2.13
   turing-init:
   - apiVersion: v2
-    created: "2022-11-02T02:35:26.57770529Z"
+    created: "2022-11-02T05:57:16.148858262Z"
     dependencies:
     - name: spark-operator
       repository: https://googlecloudplatform.github.io/spark-on-k8s-operator
       version: 1.1.7
     description: A Helm chart for Kubernetes
-    digest: f4e847150f591232487d492a185f8231c3aad2984e1cc9c49c3152085c6dace1
+    digest: e4844acaf59acaad52bb908c52592fbdd052d119e5893ffe255faeb3d14957a5
     name: turing-init
     type: application
     urls:
     - https://deadlycoconuts.github.io/turing-charts/turing-init-0.1.0.tgz
     version: 0.1.0
-generated: "2022-11-02T02:35:26.552499368Z"
+generated: "2022-11-02T05:57:16.114957251Z"
