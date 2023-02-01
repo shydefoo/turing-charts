@@ -3,7 +3,32 @@ entries:
   turing:
   - apiVersion: v1
     appVersion: v1.0.0
-    created: "2022-11-08T03:48:37.459002949Z"
+    created: "2023-02-01T09:31:25.705041164Z"
+    dependencies:
+    - name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - db
+      version: 12.1.9
+    - name: mlp
+      repository: file://subcharts/mlp
+      tags:
+      - mlp
+      version: 1.0.1
+    - name: merlin
+      repository: file://subcharts/merlin
+      tags:
+      - mlp
+      version: 0.7.1
+    description: 'Turing: ML Experimentation System'
+    digest: 514990a73d3baf0a4e5b22f153291681b30c816a890f6dce65ad71956811abf5
+    name: turing
+    urls:
+    - https://shydefoo.github.io/turing-charts/turing-0.2.16.tgz
+    version: 0.2.16
+  - apiVersion: v1
+    appVersion: v1.0.0
+    created: "2023-02-01T09:31:25.679303901Z"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -24,11 +49,24 @@ entries:
     digest: 24d9aaa71b792ab49b93639288f124258f7401549430e244969c61aec10ec002
     name: turing
     urls:
-    - https://deadlycoconuts.github.io/turing-charts/turing-0.2.13.tgz
+    - https://shydefoo.github.io/turing-charts/turing-0.2.13.tgz
     version: 0.2.13
   turing-init:
   - apiVersion: v2
-    created: "2022-11-08T03:48:37.461332873Z"
+    created: "2023-02-01T09:31:25.710502793Z"
+    dependencies:
+    - name: spark-operator
+      repository: https://googlecloudplatform.github.io/spark-on-k8s-operator
+      version: 1.1.7
+    description: A Helm chart for Kubernetes
+    digest: 663fabd6f8bb57ac2f3d204eb7f20c307bb684c00436a30f0134b8692a334b87
+    name: turing-init
+    type: application
+    urls:
+    - https://shydefoo.github.io/turing-charts/turing-init-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    created: "2023-02-01T09:31:25.707369334Z"
     dependencies:
     - name: spark-operator
       repository: https://googlecloudplatform.github.io/spark-on-k8s-operator
@@ -38,6 +76,6 @@ entries:
     name: turing-init
     type: application
     urls:
-    - https://deadlycoconuts.github.io/turing-charts/turing-init-0.1.0.tgz
+    - https://shydefoo.github.io/turing-charts/turing-init-0.1.0.tgz
     version: 0.1.0
-generated: "2022-11-08T03:48:37.436250817Z"
+generated: "2023-02-01T09:31:25.651251367Z"
