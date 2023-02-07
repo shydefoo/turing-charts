@@ -3,7 +3,7 @@ entries:
   turing:
   - apiVersion: v1
     appVersion: v1.0.0
-    created: "2023-02-01T09:31:25.705041164Z"
+    created: "2023-02-07T09:33:59.939572965Z"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -21,14 +21,14 @@ entries:
       - mlp
       version: 0.7.1
     description: 'Turing: ML Experimentation System'
-    digest: 514990a73d3baf0a4e5b22f153291681b30c816a890f6dce65ad71956811abf5
+    digest: 17f9a2813fa4a057974def56b839de558481fe7fffa11a35d17b2a815c9e6a04
     name: turing
     urls:
     - https://shydefoo.github.io/turing-charts/turing-0.2.16.tgz
     version: 0.2.16
   - apiVersion: v1
     appVersion: v1.0.0
-    created: "2023-02-01T09:31:25.679303901Z"
+    created: "2023-02-07T09:33:59.908635875Z"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -53,20 +53,20 @@ entries:
     version: 0.2.13
   turing-init:
   - apiVersion: v2
-    created: "2023-02-01T09:31:25.710502793Z"
+    created: "2023-02-07T09:33:59.945235673Z"
     dependencies:
     - name: spark-operator
       repository: https://googlecloudplatform.github.io/spark-on-k8s-operator
       version: 1.1.7
     description: A Helm chart for Kubernetes
-    digest: 663fabd6f8bb57ac2f3d204eb7f20c307bb684c00436a30f0134b8692a334b87
+    digest: 09754cb5e46cf2e72b617be017910773c0441ac517e360efa8fb2d63e8e2f968
     name: turing-init
     type: application
     urls:
     - https://shydefoo.github.io/turing-charts/turing-init-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v2
-    created: "2023-02-01T09:31:25.707369334Z"
+    created: "2023-02-07T09:33:59.942027711Z"
     dependencies:
     - name: spark-operator
       repository: https://googlecloudplatform.github.io/spark-on-k8s-operator
@@ -78,4 +78,4 @@ entries:
     urls:
     - https://shydefoo.github.io/turing-charts/turing-init-0.1.0.tgz
     version: 0.1.0
-generated: "2023-02-01T09:31:25.651251367Z"
+generated: "2023-02-07T09:33:59.880542439Z"
